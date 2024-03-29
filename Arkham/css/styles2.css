@@ -1,0 +1,174 @@
+
+
+
+@font-face {
+    font-family: chapbookreg;
+    src: url(../chapbookotf/Chapbook-Regular.otf);
+}
+
+
+@font-face {
+    font-family: chapbookital;
+    src: url(../chapbookotf/Chapbook-Italic.otf); 
+}
+
+@font-face {
+    font-family: chapbookding;
+    src: url(../chapbookotf/Chapbook-Dingbats.otf); 
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover {
+    color: red;
+        }
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-family: chapbookreg;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+.navtop ul {
+    font-family: chapbookreg;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    
+
+}
+
+.navtop ul li{
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+
+
+}
+
+
+.catsrch{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: chapbookital;
+    font-size: larger;
+    background-color: black;
+}
+
+.catsrch form {
+    display:flex;
+    padding: 20px;
+
+}
+
+.catsrch form label {
+    padding-right: 20px;
+}
+
+main h2, h3 {
+    font-family: chapbookital;
+
+}
+
+.spotlight{
+    display:flex;
+    flex-direction: column;
+    border-style: solid;
+    margin-top: 20px;
+
+
+
+}
+
+.spotlightcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spot1{
+    width: 70%;
+    justify-content: right;
+
+}
+
+
+.spot2{
+    width:70%;
+
+}
+
+.spot2ding1 {
+    font-family: chapbookding;
+    padding-right: 20px;
+    color:goldenrod;
+}
+
+.eventsmain {}
+
+
+footer{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    font-size: small;
+    font-family: garamond;
+    background-color: black ;
+
+}
+
+footer td{
+    font-size: small;
+    color:white;
+}
+
+
+.ftaddress img {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.ftaddress address{
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+
+
+
+.about{
+    
+    width: 1200px;
+    height: 600px;
+    background-image: url(../images/libfront.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.aboutcontent{
+    background-color: #faebd7;
+}
+
+.eventcont{
+    display: flex;
+    
+}
+
+.eventsp1{
+
+    width: 300px;
+}

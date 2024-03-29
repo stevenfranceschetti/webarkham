@@ -1,0 +1,222 @@
+
+@font-face {
+    font-family: chapbookreg;
+    src: url(../chapbookotf/Chapbook-Regular.otf);
+}
+
+
+@font-face {
+    font-family: chapbookital;
+    src: url(../chapbookotf/Chapbook-Italic.otf); 
+}
+
+@font-face {
+    font-family: chapbookding;
+    src: url(../chapbookotf/Chapbook-Dingbats.otf); 
+}
+
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+h1, h2, h3, h4 {
+    font-family: "chapbookreg" , "garamond";
+}
+
+.dyht{
+    margin-right: -30px;
+
+}
+
+.navlist{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "chapbookreg" , "garamond";
+    color: black;
+    font-size: larger; 
+    margin-top: 0 ;
+    padding-top: 0 ;  
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    
+}
+
+
+
+
+
+.navtop a {
+    color: black;
+}
+
+.navtop a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.navtop a:visited{
+    color: darkslategrey;
+
+}
+
+.navtop a:hover{
+    color:crimson;
+
+}
+
+.navtop a:active{
+    background-color: violet;
+
+} 
+
+
+.navtop li {
+    list-style: none;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+    padding: 10px;
+    
+}.noborder li {
+    border-style: none;
+    padding: 0 ;
+
+}
+
+
+.catalogbar{
+    background-color: #2A2F33;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+
+.maincontent{
+    margin: 0px auto;
+   /* max-width: 1200px; */
+    padding: 0px 0px;   
+    /* padding: 0px 20px; */ 
+
+
+}
+
+
+
+
+.spotlightcont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 20px; /* may remove */
+
+}
+
+
+
+
+.highlighttop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.titem {
+    margin: 5px 5px;
+    max-width: 200px;
+
+}
+
+.bitem{
+    margin: 5px 5px;
+    max-width: 200px;
+}
+
+.highlightbottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.spotlft{
+    width: 60%;
+}
+
+.spotrt{
+    margin: 20px;
+    border: solid #74112F 2px;
+    padding: 5px 5px;
+    width: 30%;
+}
+
+
+
+
+.eventsall{
+    background-color: #2A2F33;
+    color: white;
+    padding: 5px 20px;
+}
+
+.eventcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.eventsp1 {
+    width: 250px;
+    
+}
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3B4754;
+    color: white;
+    justify-content:space-between;
+    font-size: smaller;
+
+}
+
+footer td, th {
+    color:white;
+    font-size: smaller;
+}
+
+
+.libcardcont {
+    display: flex;
+}
+.leftpan{
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.libcardrightpan{
+    margin: 20px;
+}
+
+.aboutmain{
+    text-align: center;
+    margin: 20px;
+    
+   
+}
+
+.aboutmaincont{
+    text-align: center;
+    background-image: url(/images/libfront.jpg) ;
+  
+
+}
+
+

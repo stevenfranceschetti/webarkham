@@ -1,0 +1,120 @@
+
+/* colors 
+#BA9B8D quicksand
+#6F323C buccaneer
+#585651 Fuscous Gray
+#814A38 Ironstone
+
+#B68D40 tan
+#F4EBD0 cream
+#122620 charcol 
+#D6AD60 gold
+*/
+
+
+@font-face {
+    font-family: chapbookreg;
+    src: url(../chapbookotf/Chapbook-Regular.otf);
+
+    /*font-family: chapbookital;
+    src: url(../chapbookotf/Chapbook-Italic.otf); 
+    
+    font-family: chapbookding;
+    src: url(../chapbookotf/Chapbook-Dingbats.otf); */
+  }
+
+@font-face {
+    font-family: chapbookital;
+    src: url(../chapbookotf/Chapbook-Italic.otf);
+}
+
+@font-face {
+    font-family: chapbookding;
+    src: url(../chapbookotf/Chapbook-Dingbats.otf);
+}
+
+
+
+/*HOME----------------------------------------------------- */
+
+body {
+background-color: #F4EBD0;
+}
+.home { 
+    background: url(../images/booksandcoffee.jpg);
+    background-size: cover;
+}
+
+
+
+
+/*HEADER ----------------------------------------------------*/
+header {
+    font-family: chapbookreg;
+}   
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}   
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+   
+
+}
+
+nav img {
+    display: block;
+
+}
+
+
+/*
+header {
+    font-family: chapbookreg;
+    
+}
+nav {
+    background-color: #6F323CB3 ;
+
+}
+.navhead {
+    display: inline-flex ;
+    flex-wrap: wrap;
+    flex: 2 auto ;
+    align-items: center;
+    border: black;
+    align-content: stretch;
+    justify-content: center;
+    
+    
+}
+
+.navhead li{
+    list-style: none;
+    padding-left: 20px;
+    font-size: x-large;
+    flex: 2 auto;
+}
+
+*/
+
+
+
+/*FOOTER --------------------------------------------------------- */
+footer {
+    background-color: #122620B3 ;
+    color: #F4EBD0 ;
+}
+
+
+
+
+
+
